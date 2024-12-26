@@ -32,7 +32,7 @@ struct AppContext {
     // Player
     Vec2 pos = {4, 4};      // Player starting position
     Vec2 dir = {-1, 0};     // Initial direction
-    float moveSpeed = 2.0f;
+    float moveSpeed = 1.5f;
     float rotSpeed = 1.0f;
 
     // Camera
@@ -43,10 +43,10 @@ struct AppContext {
     {
         {1, 1, 1, 1, 1, 1, 1, 1},
         {1, 0, 0, 0, 0, 0, 0, 1},
-        {1, 0, 0, 0, 0, 2, 0, 1},
+        {1, 0, 2, 0, 0, 2, 0, 1},
         {1, 0, 0, 0, 0, 0, 0, 1},
         {1, 0, 0, 0, 0, 0, 0, 1},
-        {1, 0, 4, 0, 0, 3, 0, 1},
+        {1, 0, 4, 0, 2, 0, 3, 1},
         {1, 0, 0, 0, 0, 0, 0, 1},
         {1, 1, 1, 1, 1, 1, 1, 1},
     };
