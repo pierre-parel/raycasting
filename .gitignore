@@ -66,3 +66,7 @@ include/*
 lib/*
 bin/*
 test/test_runner
+
+**/**/main-example.cpp
+**/**/temp.cpp
+.vscode
